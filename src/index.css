@@ -1,0 +1,35 @@
+:root {
+    --size-xs: 8px;
+    --size-s: 12px;
+    --size-m: 16px;
+    --size-l: 24px;
+    --size-xl: 32px;
+
+    --color-primary: #ffffff;
+    --color-secondary: #a1a1aa;
+    --color-tertiary: #71717a;
+
+    --background-primary: #1a1a1a;
+    --background-secondary: #2a2a2a;
+    --background-tertiary: #3a3a3a;
+}
+
+html {
+    height: 100%;
+}
+
+body,
+html {
+    padding: 0;
+    margin: 0;
+    background-color: var(--background-primary);
+
+    font-family: "Roboto", sans-serif;
+
+    min-height: 100vh;
+    height: 100%;
+}
+
+#root {
+    height: 100%;
+}
